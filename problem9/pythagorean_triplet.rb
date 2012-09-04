@@ -41,7 +41,7 @@ class PythagoreanTriplet
   def diff_doubles(number)
     smaller_part = 0
     number.downto(number/2+1) do | bigger_part |
-      yield(smaller_part,bigger_part);
+      yield(smaller_part,bigger_part)
       smaller_part += 1
     end
   end
@@ -51,7 +51,3 @@ class PythagoreanTriplet
   end
 
 end
-
-#pyth = PythagoreanTriplet.new(1000)
-#puts "Result: " + pyth.calculate {|triplet| puts "Trying triplet: #{triplet}" }
-#puts "Product of triplet: #{pyth.product}"
