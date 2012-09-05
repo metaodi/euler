@@ -59,8 +59,6 @@ class TestPythagoreanTriplet < MiniTest::Unit::TestCase
   def test_calculate
     refute_nil(@pyth.calculate {})
 
-    puts @pyth.triplet + ", Product: " + @pyth.product.to_s
-
     #sum
     assert_equal(@pyth.max, @pyth.a + @pyth.b + @pyth.c)
 

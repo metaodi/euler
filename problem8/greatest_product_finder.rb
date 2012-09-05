@@ -30,6 +30,3 @@ class GreatestProductFinder
   end
 
 end
-
-product_finder = GreatestProductFinder.new
-puts "Greatest product: #{product_finder.find_greatest_product}"
