@@ -1,3 +1,5 @@
+#TODO: Add a more efficient implementation using sieve of Eratosthenes or even sieve of Atkin
+
 module PrimeNumber
   attr_reader :primes
 
